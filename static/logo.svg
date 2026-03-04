@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" aria-labelledby="title">
+  <title>Aqua Installatie</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0ea5a4"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M18 6c-6 8-6 14 0 22 6-8 6-14 0-22z" fill="url(#g)" />
+    <text x="44" y="31" font-family="Inter, Arial, sans-serif" font-size="20" fill="#0f172a">Aqua Installatie</text>
+  </g>
+</svg>

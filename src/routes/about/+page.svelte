@@ -1,34 +1,23 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+  <title>Over ons — Aqua Installatie</title>
+  <meta name="description" content="Over Aqua Installatie — uw professionele loodgieter in Noord-Nederland." />
 </svelte:head>
 
-<div class="content">
-	<h1>About this Aqua Installatie</h1>
+<div class="container">
+  <h1>Over Aqua Installatie</h1>
 
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
+  <p>Aqua Installatie is een familiebedrijf met meer dan 20 jaar ervaring in loodgieterswerk en verwarmingstechniek. Wij staan voor kwaliteit, heldere prijsafspraken en snelle service.</p>
 
-	<pre>npm create svelte@latest</pre>
+  <h2>Onze missie</h2>
+  <p>Wij zorgen dat woningen en bedrijven droog, comfortabel en veilig blijven. Daarbij gebruiken we duurzame materialen en denken we mee over slimme, toekomstbestendige oplossingen.</p>
 
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
+  <h2>Vakmanschap & Garantie</h2>
+  <p>Al ons werk wordt uitgevoerd door gecertificeerde vakmensen. We geven garantie op onderdelen en arbeid — u ontvangt altijd een duidelijke factuur en nazorg waar nodig.</p>
 
-	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
-	</p>
+  <h2>Bereikbaarheid</h2>
+  <p>Voor spoedreparaties zijn we 24/7 bereikbaar. Voor niet-spoedeisende vragen kunt u ons mailen of het contactformulier gebruiken.</p>
 </div>
 
 <style>
-	.content {
-		width: 100%;
-		max-width: var(--column-width);
-		margin: var(--column-margin-top) auto 0 auto;
-	}
+  .container { max-width: var(--container-width); margin-top: 1.5rem; }
 </style>

@@ -18,41 +18,33 @@
 
 <Header />
 
-<main>
+<main class="container">
 	<slot />
 </main>
 
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+<footer class="site-footer">
+	<div class="container" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:1rem;">
+		<div style="min-width:220px;">
+			<div class="logo-inline">
+				<img src="/logo.svg" alt="Aqua Installatie" />
+			</div>
+			<p class="muted">Aqua Installatie — Loodgietersbedrijf • 24/7 storingsdienst • Noord-Nederland</p>
+		</div>
+
+		<div class="muted" style="min-width:200px;">
+			<strong>Contact</strong>
+			<p>Telefoon: <a href="tel:+31612345678">06 12 34 56 78</a><br />E-mail: <a href="mailto:info@aqua-installatie.nl">info@aqua-installatie.nl</a></p>
+		</div>
+
+		<div class="muted" style="min-width:200px;">
+			<strong>Openingstijden</strong>
+			<p>Ma - Vr: 08:00 - 18:00<br />Storingen: ??? bereikbaar</p>
+		</div>
+	</div>
+
+	<div style="text-align:center; padding-top:1rem; color:var(--muted);">© {new Date().getFullYear()} Aqua Installatie — Alle rechten voorbehouden</div>
 </footer>
 
 <style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
-	}
+	main { flex: 1; }
 </style>

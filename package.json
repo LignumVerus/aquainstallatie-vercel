@@ -24,7 +24,10 @@
   "type": "module",
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
+    "carbon-components-svelte": "^0.101.4",
+    "carbon-icons-svelte": "^13.9.0",
     "cookie": "^0.4.1",
+    "svelte-i18n": "^4.0.1",
     "web-vitals": "^2.1.4"
   }
 }
