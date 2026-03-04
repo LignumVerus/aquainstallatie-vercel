@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "header": {
+    "phone": "06 12 34 56 78"
+  },
+  "footer": {
+    "description": "Aqua Installatie — Plumbing Service • 24/7 Emergency Service • North Netherlands",
+    "contact": "Contact",
+    "phone": "Phone:",
+    "email": "Email:",
+    "hours": "Hours",
+    "weekday": "Mon - Fri: 08:00 - 18:00",
+    "emergency": "Emergencies: 24/7 available",
+    "copyright": "© {year} Aqua Installatie — All rights reserved"
+  },
+  "home": {
+    "title": "Installation & Repair",
+    "subtitle": "For all your water and heating solutions",
+    "cta": "Call for quote"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional solutions for home and business"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Years of experience in installation and repair work"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Get in touch for a quote, appointment or emergency. We respond quickly and provide clear pricing.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Your message",
+      "send": "Send"
+    },
+    "info": "Contact Info",
+    "address": "Aqua Installatie",
+    "dummy": "(dummy data)"
+  }
+}

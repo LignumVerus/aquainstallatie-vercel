@@ -1,9 +1,16 @@
 import * as cookie from 'cookie';
+import { locale } from 'svelte-i18n';
 
 /** @type {import('@sveltejs/kit').Handle} */
 export const handle = async ({ event, resolve }) => {
   const cookies = cookie.parse(event.request.headers.get('cookie') || '');
   event.locals.userid = cookies['userid'] || crypto.randomUUID();
+
+  // Set locale from accept-language header
+  const lang = event.request.headers.get('accept-language')?.split(',')[0];
+  if (lang) {
+    locale.set(lang);
+  }
 
   const response = await resolve(event);
 

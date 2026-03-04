@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "about": "Over ons",
+    "contact": "Contact"
+  },
+  "header": {
+    "phone": "06 12 34 56 78"
+  },
+  "footer": {
+    "description": "Aqua Installatie — Loodgietersbedrijf • 24/7 storingsdienst • Noord-Nederland",
+    "contact": "Contact",
+    "phone": "Telefoon:",
+    "email": "E-mail:",
+    "hours": "Openingstijden",
+    "weekday": "Ma - Vr: 08:00 - 18:00",
+    "emergency": "Storingen: 24/7 bereikbaar",
+    "copyright": "© {year} Aqua Installatie — Alle rechten voorbehouden"
+  },
+  "home": {
+    "title": "Installatie & Reparatie",
+    "subtitle": "Voor al uw water- en verwarmingsoplossingen",
+    "cta": "Bel voor offerte"
+  },
+  "services": {
+    "title": "Onze Diensten",
+    "subtitle": "Professionele oplossingen voor thuis en bedrijf"
+  },
+  "about": {
+    "title": "Over Ons",
+    "subtitle": "Jaren ervaring in installatie- en reparatiewerkzaamheden"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Neem contact op voor een offerte, afspraak of storingsmelding. We reageren snel en geven een duidelijke prijsindicatie.",
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "message": "Uw bericht",
+      "send": "Verstuur"
+    },
+    "info": "Contactgegevens",
+    "address": "Aqua Installatie",
+    "dummy": "(dummy data)"
+  }
+}

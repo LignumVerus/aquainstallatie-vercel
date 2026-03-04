@@ -3,6 +3,8 @@
   import { webVitals } from '$lib/vitals';
   import { browser } from '$app/env';
   import { page } from '$app/stores';
+  import { _, locale } from 'svelte-i18n';
+  import '$lib/i18n/config';
   import '../app.css';
 
   let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
@@ -28,21 +30,21 @@
 			<div class="logo-inline">
 				<img src="/logo.svg" alt="Aqua Installatie" />
 			</div>
-			<p class="muted">Aqua Installatie — Loodgietersbedrijf • 24/7 storingsdienst • Noord-Nederland</p>
+			<p class="muted">{$_('footer.description')}</p>
 		</div>
 
 		<div class="muted" style="min-width:200px;">
-			<strong>Contact</strong>
-			<p>Telefoon: <a href="tel:+31612345678">06 12 34 56 78</a><br />E-mail: <a href="mailto:info@aqua-installatie.nl">info@aqua-installatie.nl</a></p>
+			<strong>{$_('footer.contact')}</strong>
+			<p>{$_('footer.phone')} <a href="tel:+31612345678">06 12 34 56 78</a><br />{$_('footer.email')} <a href="mailto:info@aqua-installatie.nl">info@aqua-installatie.nl</a></p>
 		</div>
 
 		<div class="muted" style="min-width:200px;">
-			<strong>Openingstijden</strong>
-			<p>Ma - Vr: 08:00 - 18:00<br />Storingen: ??? bereikbaar</p>
+			<strong>{$_('footer.hours')}</strong>
+			<p>{$_('footer.weekday')}<br />{$_('footer.emergency')}</p>
 		</div>
 	</div>
 
-	<div style="text-align:center; padding-top:1rem; color:var(--muted);">© {new Date().getFullYear()} Aqua Installatie — Alle rechten voorbehouden</div>
+	<div style="text-align:center; padding-top:1rem; color:var(--muted);">{$_('footer.copyright', { values: { year: new Date().getFullYear() } })}</div>
 </footer>
 
 <style>
