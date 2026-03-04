@@ -26,12 +26,6 @@
 
 <footer class="site-footer">
 	<div class="container" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:1rem;">
-		<div style="min-width:220px;">
-			<div class="logo-inline">
-				<img src="/logo.svg" alt="Aqua Installatie" />
-			</div>
-			<p class="muted">{$_('footer.description')}</p>
-		</div>
 
 		<div class="muted" style="min-width:200px;">
 			<strong>{$_('footer.contact')}</strong>

@@ -32,7 +32,7 @@
 </header>
 
 <style>
-  .site-header { padding: 0.8rem 0; background: transparent; }
+  .site-header { padding: 0; background: #ffffff; }
   .main-nav { display:flex; gap:1rem; list-style:none; margin:0; padding:0; align-items:center; }
   .main-nav a { color: var(--text); font-weight:600; text-decoration:none; padding:0.35rem 0.6rem; border-radius:6px; }
   .main-nav li.active a { background: rgba(14,165,164,0.08); color:var(--primary); }
